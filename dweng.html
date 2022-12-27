@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <script data-cfasync="false" src="./js/script.js"></script>
+    <!-- <script src="https://cdn.jwplayer.com/libraries/rpDyYvR6.js"></script> -->
+    <link href="./css/iframe.css" rel="stylesheet" />
+</head>
+
+<body>
+    <img src="./img/poster/indosiar.png">
+    <object type="application/x-mpegURL" data="" width="100%" height="100%" background-color="#000000" id="playerjxJRqLMFuJaA" name="playerjxJRqLMFuJaA" class="jwswf swfPrev-beforeswfanchor0 swfNext-afterswfanchor0" tabindex="0">
+      <param name="allowfullscreen" value="true" />
+      <param name="allowscriptaccess" value="always" />
+      <param name="seamlesstabbing" value="true" />
+      <param name="wmode" value="opaque" />
+    </object>
+
+    <script >
+      jwplayer("playerjxJRqLMFuJaA").setup({
+    file: "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    aboutlink: "48Cyber",
+    image: "/img/poster/indosiar.png",
+    controls: "true",
+    mute: "false",
+    width: "100%",
+    height: "100%",
+    title: "danank48 cyber",
+    // stretching: "exactfit",
+    stretching: "uniform",
+    // stretching: "fill",
+    // stretching: "none",
+    autostart: "true",
+    primary: "html5",
+    // primary: "flash",
+    horizontalVolumeSlider: "true",
+    skin: {
+        //url: "https://www.kinesis.ie/lib/jwplayer/skins/vapor.css", // external CSS file to style your player
+        controlbar: {
+            icons: "rgb(212, 212, 212)",
+            iconsActive: "rgb(0, 255, 55)",
+            background: "rgb(20, 20, 20)",
+        },
+        timeslider: {
+            progress: "red",
+            rail: "rgb(216, 219, 0)",
+        },
+    },
+    androidhls: "true",
+    playbackRateControls: "true",
+    aspectratio: "16:9",
+});
+    </script>
+</body>
+
+</html>
